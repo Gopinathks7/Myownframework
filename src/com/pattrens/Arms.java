@@ -29,9 +29,9 @@ public class Arms
 		temp=temp/10;
 	}
 	if(num==sum)
-	System.out.println("Entered number is armstrong");
+	System.out.println("Entered number is armstrong "+num);
 	else
-		System.out.println("Entered number is not  armstrong");
+		System.out.println("Entered number is not  armstrong  "+ num);
 	
 		 
 	}
