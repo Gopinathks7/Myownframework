@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="come.seleniumpractise.Broke">
+      <class name="org.today.PRG3">
         <methods>
-          <include name="verifyURLStatus"/>
-          <include name="getInvalidLinks"/>
+          <include name="one"/>
+          <include name="Two"/>
         </methods>
-      </class> <!-- come.seleniumpractise.Broke -->
+      </class> <!-- org.today.PRG3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
