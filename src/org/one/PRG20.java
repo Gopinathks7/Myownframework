@@ -7,9 +7,13 @@ import java.util.Scanner;
 
 public class PRG20 
 {
-
-	public static  int countWeekendDays(int year, int month) {
-	  
+	   
+	public static  int countWeekendDays(int year, int month) 
+	{
+		int amount=0;
+		int weekendamount=0;
+		int dayofmonth=0;
+		int weekends=0;
 		Calendar calendar = Calendar.getInstance();
 	     calendar.set(year, month - 1, 1);
 	    int daysInMonth = calendar.getActualMaximum(Calendar.DAY_OF_MONTH);
@@ -25,14 +29,17 @@ public class PRG20
 	          
 	        }
 	    }
+	    int days=daysInMonth-count;
 	    System.out.println("Number of saturday & Sunday is "+count);
-	    System.out.println(daysInMonth);
+	    System.out.println("Number of days in the manth is "+daysInMonth);
+	    System.out.println("Total noumber of day exculiding weekends is "+days);
 	    return count;
 	}
 	public static void main(String[] args) 
 	{
 	
-		countWeekendDays(2020, 2);
+		countWeekendDays(2020, 1);
+		
 	}
 
 }
