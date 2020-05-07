@@ -1,43 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[a]]>
+      <![CDATA[This is Before Class]]>
     </line>
     <line>
-      <![CDATA[c]]>
+      <![CDATA[This is Before Method]]>
     </line>
     <line>
-      <![CDATA[b]]>
+      <![CDATA[This is Test1 Class]]>
+    </line>
+    <line>
+      <![CDATA[This is AfterMethod]]>
+    </line>
+    <line>
+      <![CDATA[This is Before Method]]>
+    </line>
+    <line>
+      <![CDATA[This is Test4 Class]]>
+    </line>
+    <line>
+      <![CDATA[This is AfterMethod]]>
+    </line>
+    <line>
+      <![CDATA[This is After Class]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="306" started-at="2020-05-01T19:34:05 IST" finished-at="2020-05-01T19:34:05 IST">
+  <suite name="Default suite" duration-ms="150" started-at="2020-05-05T14:11:47 IST" finished-at="2020-05-05T14:11:47 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="306" started-at="2020-05-01T19:34:05 IST" finished-at="2020-05-01T19:34:05 IST">
-      <class name="com.collections.Testn">
-        <test-method status="PASS" signature="a()[pri:0, instance:com.collections.Testn@4b4523f8]" name="a" duration-ms="68" started-at="2020-05-01T19:34:05 IST" finished-at="2020-05-01T19:34:05 IST">
+    <test name="Default test" duration-ms="150" started-at="2020-05-05T14:11:47 IST" finished-at="2020-05-05T14:11:47 IST">
+      <class name="org.one.Practise">
+        <test-method status="PASS" signature="test()[pri:0, instance:org.one.Practise@7b49cea0]" name="test" is-config="true" duration-ms="29" started-at="2020-05-05T14:11:47 IST" finished-at="2020-05-05T14:11:47 IST">
           <reporter-output>
             <line>
-              <![CDATA[a]]>
+              <![CDATA[This is Before Class]]>
             </line>
           </reporter-output>
-        </test-method> <!-- a -->
-        <test-method status="PASS" signature="c()[pri:1, instance:com.collections.Testn@4b4523f8]" name="c" duration-ms="5" started-at="2020-05-01T19:34:05 IST" finished-at="2020-05-01T19:34:05 IST">
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:org.one.Practise@7b49cea0]" name="test5" is-config="true" duration-ms="0" started-at="2020-05-05T14:11:47 IST" finished-at="2020-05-05T14:11:47 IST">
           <reporter-output>
             <line>
-              <![CDATA[c]]>
+              <![CDATA[This is Before Method]]>
             </line>
           </reporter-output>
-        </test-method> <!-- c -->
-        <test-method status="PASS" signature="b()[pri:2, instance:com.collections.Testn@4b4523f8]" name="b" duration-ms="3" started-at="2020-05-01T19:34:05 IST" finished-at="2020-05-01T19:34:05 IST">
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:org.one.Practise@7b49cea0]" name="test3" duration-ms="13" started-at="2020-05-05T14:11:47 IST" finished-at="2020-05-05T14:11:47 IST">
           <reporter-output>
             <line>
-              <![CDATA[b]]>
+              <![CDATA[This is Test1 Class]]>
             </line>
           </reporter-output>
-        </test-method> <!-- b -->
-      </class> <!-- com.collections.Testn -->
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test6()[pri:0, instance:org.one.Practise@7b49cea0]" name="test6" is-config="true" duration-ms="1" started-at="2020-05-05T14:11:47 IST" finished-at="2020-05-05T14:11:47 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[This is AfterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:org.one.Practise@7b49cea0]" name="test5" is-config="true" duration-ms="1" started-at="2020-05-05T14:11:47 IST" finished-at="2020-05-05T14:11:47 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[This is Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:org.one.Practise@7b49cea0]" name="test4" duration-ms="3" started-at="2020-05-05T14:11:47 IST" finished-at="2020-05-05T14:11:47 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[This is Test4 Class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="test6()[pri:0, instance:org.one.Practise@7b49cea0]" name="test6" is-config="true" duration-ms="1" started-at="2020-05-05T14:11:47 IST" finished-at="2020-05-05T14:11:47 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[This is AfterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:org.one.Practise@7b49cea0]" name="test1" is-config="true" duration-ms="1" started-at="2020-05-05T14:11:47 IST" finished-at="2020-05-05T14:11:47 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[This is After Class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- org.one.Practise -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
