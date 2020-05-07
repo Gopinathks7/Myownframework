@@ -75,4 +75,11 @@ public void test6(ITestResult result)
 	}
 	eReports.endTest(eTest);
 }
+@Test
+public void test6()
+{
+	int actual=10;
+	int expected=10;
+	Assert.assertEquals(actual, expected);
+}
 }

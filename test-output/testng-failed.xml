@@ -6,11 +6,12 @@
       <class name="org.one.Practise">
         <methods>
           <include name="test1"/>
-          <include name="test4"/>
+          <include name="initFramework"/>
+          <include name="getClose"/>
           <include name="test"/>
           <include name="test6"/>
+          <include name="test6"/>
           <include name="test5"/>
-          <include name="test3"/>
         </methods>
       </class> <!-- org.one.Practise -->
     </classes>
