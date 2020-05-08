@@ -26,7 +26,7 @@ public class Practise
 	@BeforeSuite
 	public void initFramework()
 	{
-		eReports=new ExtentReports(".//test-output"+".html");
+		eReports=new ExtentReports(".//Report/Result"+".html");
 	}
 	@AfterSuite
 	public void getClose()
@@ -67,11 +67,11 @@ public void test6(ITestResult result)
 {
 	if(result.getStatus()==ITestResult.FAILURE)
 	{
-		eTest.log(LogStatus.FAIL,"Fails");
+		eTest.log(LogStatus.FAIL,"This Method is failed");
 	}
 	else
 	{
-		eTest.log(LogStatus.PASS,"Pass");
+		eTest.log(LogStatus.PASS,"This method is passed");
 	}
 	eReports.endTest(eTest);
 }

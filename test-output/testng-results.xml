@@ -23,23 +23,23 @@
       <![CDATA[This is After Class]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="153" started-at="2020-05-07T12:59:34 IST" finished-at="2020-05-07T12:59:34 IST">
+  <suite name="Default suite" duration-ms="443" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="153" started-at="2020-05-07T12:59:34 IST" finished-at="2020-05-07T12:59:34 IST">
+    <test name="Default test" duration-ms="443" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
       <class name="org.one.Practise">
-        <test-method status="PASS" signature="initFramework()[pri:0, instance:org.one.Practise@3dd4520b]" name="initFramework" is-config="true" duration-ms="352" started-at="2020-05-07T12:59:34 IST" finished-at="2020-05-07T12:59:34 IST">
+        <test-method status="PASS" signature="initFramework()[pri:0, instance:org.one.Practise@3dd4520b]" name="initFramework" is-config="true" duration-ms="15665" started-at="2020-05-08T11:48:49 IST" finished-at="2020-05-08T11:49:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initFramework -->
-        <test-method status="PASS" signature="test()[pri:0, instance:org.one.Practise@3dd4520b]" name="test" is-config="true" duration-ms="2" started-at="2020-05-07T12:59:34 IST" finished-at="2020-05-07T12:59:34 IST">
+        <test-method status="PASS" signature="test()[pri:0, instance:org.one.Practise@3dd4520b]" name="test" is-config="true" duration-ms="3" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
           <reporter-output>
             <line>
               <![CDATA[This is Before Class]]>
             </line>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test5(java.lang.reflect.Method)[pri:0, instance:org.one.Practise@3dd4520b]" name="test5" is-config="true" duration-ms="10" started-at="2020-05-07T12:59:34 IST" finished-at="2020-05-07T12:59:34 IST">
+        <test-method status="PASS" signature="test5(java.lang.reflect.Method)[pri:0, instance:org.one.Practise@3dd4520b]" name="test5" is-config="true" duration-ms="10" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
           <params>
             <param index="0">
               <value>
@@ -53,14 +53,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- test5 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:org.one.Practise@3dd4520b]" name="test3" duration-ms="15" started-at="2020-05-07T12:59:34 IST" finished-at="2020-05-07T12:59:34 IST">
+        <test-method status="PASS" signature="test3()[pri:0, instance:org.one.Practise@3dd4520b]" name="test3" duration-ms="14" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
           <reporter-output>
             <line>
               <![CDATA[This is test method 3]]>
             </line>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="test6(org.testng.ITestResult)[pri:0, instance:org.one.Practise@3dd4520b]" name="test6" is-config="true" duration-ms="7" started-at="2020-05-07T12:59:34 IST" finished-at="2020-05-07T12:59:34 IST">
+        <test-method status="PASS" signature="test6(org.testng.ITestResult)[pri:0, instance:org.one.Practise@3dd4520b]" name="test6" is-config="true" duration-ms="8" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
           <params>
             <param index="0">
               <value>
@@ -71,7 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test6 -->
-        <test-method status="PASS" signature="test5(java.lang.reflect.Method)[pri:0, instance:org.one.Practise@3dd4520b]" name="test5" is-config="true" duration-ms="1" started-at="2020-05-07T12:59:34 IST" finished-at="2020-05-07T12:59:34 IST">
+        <test-method status="PASS" signature="test5(java.lang.reflect.Method)[pri:0, instance:org.one.Practise@3dd4520b]" name="test5" is-config="true" duration-ms="1" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
           <params>
             <param index="0">
               <value>
@@ -85,14 +85,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- test5 -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:org.one.Practise@3dd4520b]" name="test4" duration-ms="3" started-at="2020-05-07T12:59:34 IST" finished-at="2020-05-07T12:59:34 IST">
+        <test-method status="PASS" signature="test4()[pri:0, instance:org.one.Practise@3dd4520b]" name="test4" duration-ms="5" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
           <reporter-output>
             <line>
               <![CDATA[This is Test4 Class]]>
             </line>
           </reporter-output>
         </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="test6(org.testng.ITestResult)[pri:0, instance:org.one.Practise@3dd4520b]" name="test6" is-config="true" duration-ms="1" started-at="2020-05-07T12:59:34 IST" finished-at="2020-05-07T12:59:34 IST">
+        <test-method status="PASS" signature="test6(org.testng.ITestResult)[pri:0, instance:org.one.Practise@3dd4520b]" name="test6" is-config="true" duration-ms="1" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
           <params>
             <param index="0">
               <value>
@@ -103,7 +103,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test6 -->
-        <test-method status="PASS" signature="test5(java.lang.reflect.Method)[pri:0, instance:org.one.Practise@3dd4520b]" name="test5" is-config="true" duration-ms="1" started-at="2020-05-07T12:59:34 IST" finished-at="2020-05-07T12:59:34 IST">
+        <test-method status="PASS" signature="test5(java.lang.reflect.Method)[pri:0, instance:org.one.Practise@3dd4520b]" name="test5" is-config="true" duration-ms="1" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
           <params>
             <param index="0">
               <value>
@@ -117,11 +117,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- test5 -->
-        <test-method status="PASS" signature="test6()[pri:0, instance:org.one.Practise@3dd4520b]" name="test6" duration-ms="10" started-at="2020-05-07T12:59:34 IST" finished-at="2020-05-07T12:59:34 IST">
+        <test-method status="PASS" signature="test6()[pri:0, instance:org.one.Practise@3dd4520b]" name="test6" duration-ms="35" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test6 -->
-        <test-method status="PASS" signature="test6(org.testng.ITestResult)[pri:0, instance:org.one.Practise@3dd4520b]" name="test6" is-config="true" duration-ms="1" started-at="2020-05-07T12:59:34 IST" finished-at="2020-05-07T12:59:34 IST">
+        <test-method status="PASS" signature="test6(org.testng.ITestResult)[pri:0, instance:org.one.Practise@3dd4520b]" name="test6" is-config="true" duration-ms="2" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
           <params>
             <param index="0">
               <value>
@@ -132,14 +132,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test6 -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:org.one.Practise@3dd4520b]" name="test1" is-config="true" duration-ms="1" started-at="2020-05-07T12:59:34 IST" finished-at="2020-05-07T12:59:34 IST">
+        <test-method status="PASS" signature="test1()[pri:0, instance:org.one.Practise@3dd4520b]" name="test1" is-config="true" duration-ms="1" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
           <reporter-output>
             <line>
               <![CDATA[This is After Class]]>
             </line>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="getClose()[pri:0, instance:org.one.Practise@3dd4520b]" name="getClose" is-config="true" duration-ms="798" started-at="2020-05-07T12:59:34 IST" finished-at="2020-05-07T12:59:35 IST">
+        <test-method status="PASS" signature="getClose()[pri:0, instance:org.one.Practise@3dd4520b]" name="getClose" is-config="true" duration-ms="19519" started-at="2020-05-08T11:49:06 IST" finished-at="2020-05-08T11:49:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getClose -->
