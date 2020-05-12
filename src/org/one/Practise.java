@@ -27,11 +27,13 @@ public class Practise
 	public void initFramework()
 	{
 		eReports=new ExtentReports(".//Report/Result"+".html");
+		Reporter.log("This is Before Suite Annotation",true);
 	}
 	@AfterSuite
 	public void getClose()
 	{
 		eReports.flush();
+		Reporter.log("This is After Suite Annotation",true);
 	}
 @BeforeClass
 public void test()

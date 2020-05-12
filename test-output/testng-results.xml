@@ -1,149 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
     <line>
-      <![CDATA[This is Before Class]]>
+      <![CDATA[Before Suite]]>
     </line>
     <line>
-      <![CDATA[This is Before Method]]>
+      <![CDATA[Before Test]]>
     </line>
     <line>
-      <![CDATA[This is test method 3]]>
+      <![CDATA[BeforeClass]]>
     </line>
     <line>
-      <![CDATA[This is Before Method]]>
+      <![CDATA[Before Method]]>
     </line>
     <line>
-      <![CDATA[This is Test4 Class]]>
+      <![CDATA[Test Method One]]>
     </line>
     <line>
-      <![CDATA[This is Before Method]]>
+      <![CDATA[After Method]]>
     </line>
     <line>
-      <![CDATA[This is After Class]]>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Two]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Three]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Four]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[After Class]]>
+    </line>
+    <line>
+      <![CDATA[After Test]]>
+    </line>
+    <line>
+      <![CDATA[After Suite]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="443" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
+  <suite name="Default suite" duration-ms="162" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="443" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
-      <class name="org.one.Practise">
-        <test-method status="PASS" signature="initFramework()[pri:0, instance:org.one.Practise@3dd4520b]" name="initFramework" is-config="true" duration-ms="15665" started-at="2020-05-08T11:48:49 IST" finished-at="2020-05-08T11:49:05 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initFramework -->
-        <test-method status="PASS" signature="test()[pri:0, instance:org.one.Practise@3dd4520b]" name="test" is-config="true" duration-ms="3" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
+    <test name="Default test" duration-ms="162" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+      <class name="org.one.MyTestNG">
+        <test-method status="PASS" signature="getBeforeSuite()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getBeforeSuite" is-config="true" duration-ms="50" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
           <reporter-output>
             <line>
-              <![CDATA[This is Before Class]]>
+              <![CDATA[Before Suite]]>
             </line>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test5(java.lang.reflect.Method)[pri:0, instance:org.one.Practise@3dd4520b]" name="test5" is-config="true" duration-ms="10" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void org.one.Practise.test3()]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- getBeforeSuite -->
+        <test-method status="PASS" signature="geBeforeTest()[pri:0, instance:org.one.MyTestNG@610694f1]" name="geBeforeTest" is-config="true" duration-ms="1" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
           <reporter-output>
             <line>
-              <![CDATA[This is Before Method]]>
+              <![CDATA[Before Test]]>
             </line>
           </reporter-output>
-        </test-method> <!-- test5 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:org.one.Practise@3dd4520b]" name="test3" duration-ms="14" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
+        </test-method> <!-- geBeforeTest -->
+        <test-method status="PASS" signature="getBeforeClass()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getBeforeClass" is-config="true" duration-ms="1" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
           <reporter-output>
             <line>
-              <![CDATA[This is test method 3]]>
+              <![CDATA[BeforeClass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="test6(org.testng.ITestResult)[pri:0, instance:org.one.Practise@3dd4520b]" name="test6" is-config="true" duration-ms="8" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test3 status=SUCCESS method=Practise.test3()[pri:0, instance:org.one.Practise@3dd4520b] output=This is test method 3]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test6 -->
-        <test-method status="PASS" signature="test5(java.lang.reflect.Method)[pri:0, instance:org.one.Practise@3dd4520b]" name="test5" is-config="true" duration-ms="1" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void org.one.Practise.test4()]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- getBeforeClass -->
+        <test-method status="PASS" signature="getBeforeMethod()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getBeforeMethod" is-config="true" duration-ms="1" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
           <reporter-output>
             <line>
-              <![CDATA[This is Before Method]]>
+              <![CDATA[Before Method]]>
             </line>
           </reporter-output>
-        </test-method> <!-- test5 -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:org.one.Practise@3dd4520b]" name="test4" duration-ms="5" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
+        </test-method> <!-- getBeforeMethod -->
+        <test-method status="PASS" signature="getTestMethodOne()[pri:1, instance:org.one.MyTestNG@610694f1]" name="getTestMethodOne" duration-ms="17" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
           <reporter-output>
             <line>
-              <![CDATA[This is Test4 Class]]>
+              <![CDATA[Test Method One]]>
             </line>
           </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="test6(org.testng.ITestResult)[pri:0, instance:org.one.Practise@3dd4520b]" name="test6" is-config="true" duration-ms="1" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test4 status=SUCCESS method=Practise.test4()[pri:0, instance:org.one.Practise@3dd4520b] output=This is Test4 Class]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test6 -->
-        <test-method status="PASS" signature="test5(java.lang.reflect.Method)[pri:0, instance:org.one.Practise@3dd4520b]" name="test5" is-config="true" duration-ms="1" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void org.one.Practise.test6()]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- getTestMethodOne -->
+        <test-method status="PASS" signature="getAfterMethod()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getAfterMethod" is-config="true" duration-ms="7" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
           <reporter-output>
             <line>
-              <![CDATA[This is Before Method]]>
+              <![CDATA[After Method]]>
             </line>
           </reporter-output>
-        </test-method> <!-- test5 -->
-        <test-method status="PASS" signature="test6()[pri:0, instance:org.one.Practise@3dd4520b]" name="test6" duration-ms="35" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test6 -->
-        <test-method status="PASS" signature="test6(org.testng.ITestResult)[pri:0, instance:org.one.Practise@3dd4520b]" name="test6" is-config="true" duration-ms="2" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test6 status=SUCCESS method=Practise.test6()[pri:0, instance:org.one.Practise@3dd4520b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test6 -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:org.one.Practise@3dd4520b]" name="test1" is-config="true" duration-ms="1" started-at="2020-05-08T11:49:05 IST" finished-at="2020-05-08T11:49:05 IST">
+        </test-method> <!-- getAfterMethod -->
+        <test-method status="PASS" signature="getBeforeMethod()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getBeforeMethod" is-config="true" duration-ms="1" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
           <reporter-output>
             <line>
-              <![CDATA[This is After Class]]>
+              <![CDATA[Before Method]]>
             </line>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="getClose()[pri:0, instance:org.one.Practise@3dd4520b]" name="getClose" is-config="true" duration-ms="19519" started-at="2020-05-08T11:49:06 IST" finished-at="2020-05-08T11:49:25 IST">
+        </test-method> <!-- getBeforeMethod -->
+        <test-method status="PASS" signature="getTestMethodTwo()[pri:2, instance:org.one.MyTestNG@610694f1]" name="getTestMethodTwo" duration-ms="6" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
           <reporter-output>
+            <line>
+              <![CDATA[Test Method Two]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- getClose -->
-      </class> <!-- org.one.Practise -->
+        </test-method> <!-- getTestMethodTwo -->
+        <test-method status="PASS" signature="getAfterMethod()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getAfterMethod" is-config="true" duration-ms="1" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getAfterMethod -->
+        <test-method status="PASS" signature="getBeforeMethod()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getBeforeMethod" is-config="true" duration-ms="1" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getBeforeMethod -->
+        <test-method status="PASS" signature="getTestMethodThree()[pri:3, instance:org.one.MyTestNG@610694f1]" name="getTestMethodThree" duration-ms="4" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Method Three]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getTestMethodThree -->
+        <test-method status="PASS" signature="getAfterMethod()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getAfterMethod" is-config="true" duration-ms="1" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getAfterMethod -->
+        <test-method status="PASS" signature="getBeforeMethod()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getBeforeMethod" is-config="true" duration-ms="1" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getBeforeMethod -->
+        <test-method status="PASS" signature="getTestMethodFour()[pri:4, instance:org.one.MyTestNG@610694f1]" name="getTestMethodFour" duration-ms="4" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Method Four]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getTestMethodFour -->
+        <test-method status="PASS" signature="getAfterMethod()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getAfterMethod" is-config="true" duration-ms="0" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getAfterMethod -->
+        <test-method status="PASS" signature="getAfterClass()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getAfterClass" is-config="true" duration-ms="1" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[After Class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getAfterClass -->
+        <test-method status="PASS" signature="geAfterTest()[pri:0, instance:org.one.MyTestNG@610694f1]" name="geAfterTest" is-config="true" duration-ms="0" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[After Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- geAfterTest -->
+        <test-method status="PASS" signature="getAfterSuite()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getAfterSuite" is-config="true" duration-ms="2" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[After Suite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getAfterSuite -->
+      </class> <!-- org.one.MyTestNG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

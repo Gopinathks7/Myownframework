@@ -10,7 +10,7 @@
           <include name="getClose"/>
           <include name="test"/>
           <include name="test6"/>
-          <include name="test6"/>
+          <include name="test10"/>
           <include name="test5"/>
         </methods>
       </class> <!-- org.one.Practise -->
