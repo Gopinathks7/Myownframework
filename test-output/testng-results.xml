@@ -1,193 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
     <line>
-      <![CDATA[Before Suite]]>
+      <![CDATA[I am in Before Suite]]>
     </line>
     <line>
-      <![CDATA[Before Test]]>
+      <![CDATA[I am in Before Test]]>
     </line>
     <line>
-      <![CDATA[BeforeClass]]>
+      <![CDATA[I am in Before Class]]>
     </line>
     <line>
-      <![CDATA[Before Method]]>
+      <![CDATA[I am in Before Method]]>
     </line>
     <line>
-      <![CDATA[Test Method One]]>
+      <![CDATA[I am in test method one]]>
     </line>
     <line>
-      <![CDATA[After Method]]>
+      <![CDATA[I am in After Method]]>
     </line>
     <line>
-      <![CDATA[Before Method]]>
+      <![CDATA[I am in Before Method]]>
     </line>
     <line>
-      <![CDATA[Test Method Two]]>
+      <![CDATA[I am in test method Two]]>
     </line>
     <line>
-      <![CDATA[After Method]]>
+      <![CDATA[I am in After Method]]>
     </line>
     <line>
-      <![CDATA[Before Method]]>
+      <![CDATA[I am in After Class]]>
     </line>
     <line>
-      <![CDATA[Test Method Three]]>
+      <![CDATA[Regression Testing Four]]>
     </line>
     <line>
-      <![CDATA[After Method]]>
+      <![CDATA[Regression Testing One ]]>
     </line>
     <line>
-      <![CDATA[Before Method]]>
+      <![CDATA[Regression Testing Three]]>
     </line>
     <line>
-      <![CDATA[Test Method Four]]>
+      <![CDATA[Sanity Testing]]>
     </line>
     <line>
-      <![CDATA[After Method]]>
+      <![CDATA[I am in After Test]]>
     </line>
     <line>
-      <![CDATA[After Class]]>
-    </line>
-    <line>
-      <![CDATA[After Test]]>
-    </line>
-    <line>
-      <![CDATA[After Suite]]>
+      <![CDATA[I am in After Suite]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="162" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+  <suite name="Default suite" duration-ms="128" started-at="2020-08-11T16:52:40 IST" finished-at="2020-08-11T16:52:40 IST">
     <groups>
+      <group name="Sanity">
+        <method signature="T4.two()[pri:0, instance:com.testng.T4@551aa95a, instance params:[]]" name="two" class="com.testng.T4"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="T4.four()[pri:0, instance:com.testng.T4@551aa95a, instance params:[]]" name="four" class="com.testng.T4"/>
+        <method signature="T4.one()[pri:0, instance:com.testng.T4@551aa95a, instance params:[]]" name="one" class="com.testng.T4"/>
+        <method signature="T4.three()[pri:0, instance:com.testng.T4@551aa95a, instance params:[]]" name="three" class="com.testng.T4"/>
+      </group> <!-- Regression -->
     </groups>
-    <test name="Default test" duration-ms="162" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
-      <class name="org.one.MyTestNG">
-        <test-method status="PASS" signature="getBeforeSuite()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getBeforeSuite" is-config="true" duration-ms="50" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+    <test name="Default test" duration-ms="128" started-at="2020-08-11T16:52:40 IST" finished-at="2020-08-11T16:52:40 IST">
+      <class name="com.testng.T4">
+        <test-method status="PASS" signature="four()[pri:0, instance:com.testng.T4@551aa95a, instance params:[]]" name="four" duration-ms="3" started-at="2020-08-11T16:52:40 IST" finished-at="2020-08-11T16:52:40 IST">
           <reporter-output>
             <line>
-              <![CDATA[Before Suite]]>
+              <![CDATA[Regression Testing Four]]>
             </line>
           </reporter-output>
-        </test-method> <!-- getBeforeSuite -->
-        <test-method status="PASS" signature="geBeforeTest()[pri:0, instance:org.one.MyTestNG@610694f1]" name="geBeforeTest" is-config="true" duration-ms="1" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+        </test-method> <!-- four -->
+        <test-method status="PASS" signature="one()[pri:0, instance:com.testng.T4@551aa95a, instance params:[]]" name="one" duration-ms="3" started-at="2020-08-11T16:52:40 IST" finished-at="2020-08-11T16:52:40 IST">
           <reporter-output>
             <line>
-              <![CDATA[Before Test]]>
+              <![CDATA[Regression Testing One ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- geBeforeTest -->
-        <test-method status="PASS" signature="getBeforeClass()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getBeforeClass" is-config="true" duration-ms="1" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+        </test-method> <!-- one -->
+        <test-method status="PASS" signature="three()[pri:0, instance:com.testng.T4@551aa95a, instance params:[]]" name="three" duration-ms="3" started-at="2020-08-11T16:52:40 IST" finished-at="2020-08-11T16:52:40 IST">
           <reporter-output>
             <line>
-              <![CDATA[BeforeClass]]>
+              <![CDATA[Regression Testing Three]]>
             </line>
           </reporter-output>
-        </test-method> <!-- getBeforeClass -->
-        <test-method status="PASS" signature="getBeforeMethod()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getBeforeMethod" is-config="true" duration-ms="1" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+        </test-method> <!-- three -->
+        <test-method status="PASS" signature="two()[pri:0, instance:com.testng.T4@551aa95a, instance params:[]]" name="two" duration-ms="4" started-at="2020-08-11T16:52:40 IST" finished-at="2020-08-11T16:52:40 IST">
           <reporter-output>
             <line>
-              <![CDATA[Before Method]]>
+              <![CDATA[Sanity Testing]]>
             </line>
           </reporter-output>
-        </test-method> <!-- getBeforeMethod -->
-        <test-method status="PASS" signature="getTestMethodOne()[pri:1, instance:org.one.MyTestNG@610694f1]" name="getTestMethodOne" duration-ms="17" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+        </test-method> <!-- two -->
+      </class> <!-- com.testng.T4 -->
+      <class name="com.testng.T2">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.testng.T2@1efed156]" name="beforeSuite" is-config="true" duration-ms="21" started-at="2020-08-11T16:52:40 IST" finished-at="2020-08-11T16:52:40 IST">
           <reporter-output>
             <line>
-              <![CDATA[Test Method One]]>
+              <![CDATA[I am in Before Suite]]>
             </line>
           </reporter-output>
-        </test-method> <!-- getTestMethodOne -->
-        <test-method status="PASS" signature="getAfterMethod()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getAfterMethod" is-config="true" duration-ms="7" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.testng.T2@1efed156]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-08-11T16:52:40 IST" finished-at="2020-08-11T16:52:40 IST">
           <reporter-output>
             <line>
-              <![CDATA[After Method]]>
+              <![CDATA[I am in Before Test]]>
             </line>
           </reporter-output>
-        </test-method> <!-- getAfterMethod -->
-        <test-method status="PASS" signature="getBeforeMethod()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getBeforeMethod" is-config="true" duration-ms="1" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testng.T2@1efed156]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-08-11T16:52:40 IST" finished-at="2020-08-11T16:52:40 IST">
           <reporter-output>
             <line>
-              <![CDATA[Before Method]]>
+              <![CDATA[I am in Before Class]]>
             </line>
           </reporter-output>
-        </test-method> <!-- getBeforeMethod -->
-        <test-method status="PASS" signature="getTestMethodTwo()[pri:2, instance:org.one.MyTestNG@610694f1]" name="getTestMethodTwo" duration-ms="6" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testng.T2@1efed156]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-08-11T16:52:40 IST" finished-at="2020-08-11T16:52:40 IST">
           <reporter-output>
             <line>
-              <![CDATA[Test Method Two]]>
+              <![CDATA[I am in Before Method]]>
             </line>
           </reporter-output>
-        </test-method> <!-- getTestMethodTwo -->
-        <test-method status="PASS" signature="getAfterMethod()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getAfterMethod" is-config="true" duration-ms="1" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="one()[pri:0, instance:com.testng.T2@1efed156, instance params:[]]" name="one" duration-ms="13" started-at="2020-08-11T16:52:40 IST" finished-at="2020-08-11T16:52:40 IST">
           <reporter-output>
             <line>
-              <![CDATA[After Method]]>
+              <![CDATA[I am in test method one]]>
             </line>
           </reporter-output>
-        </test-method> <!-- getAfterMethod -->
-        <test-method status="PASS" signature="getBeforeMethod()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getBeforeMethod" is-config="true" duration-ms="1" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+        </test-method> <!-- one -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testng.T2@1efed156]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-11T16:52:40 IST" finished-at="2020-08-11T16:52:40 IST">
           <reporter-output>
             <line>
-              <![CDATA[Before Method]]>
+              <![CDATA[I am in After Method]]>
             </line>
           </reporter-output>
-        </test-method> <!-- getBeforeMethod -->
-        <test-method status="PASS" signature="getTestMethodThree()[pri:3, instance:org.one.MyTestNG@610694f1]" name="getTestMethodThree" duration-ms="4" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testng.T2@1efed156]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-08-11T16:52:40 IST" finished-at="2020-08-11T16:52:40 IST">
           <reporter-output>
             <line>
-              <![CDATA[Test Method Three]]>
+              <![CDATA[I am in Before Method]]>
             </line>
           </reporter-output>
-        </test-method> <!-- getTestMethodThree -->
-        <test-method status="PASS" signature="getAfterMethod()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getAfterMethod" is-config="true" duration-ms="1" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="two()[pri:0, instance:com.testng.T2@1efed156, instance params:[]]" name="two" duration-ms="4" started-at="2020-08-11T16:52:40 IST" finished-at="2020-08-11T16:52:40 IST">
           <reporter-output>
             <line>
-              <![CDATA[After Method]]>
+              <![CDATA[I am in test method Two]]>
             </line>
           </reporter-output>
-        </test-method> <!-- getAfterMethod -->
-        <test-method status="PASS" signature="getBeforeMethod()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getBeforeMethod" is-config="true" duration-ms="1" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+        </test-method> <!-- two -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testng.T2@1efed156]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-11T16:52:40 IST" finished-at="2020-08-11T16:52:40 IST">
           <reporter-output>
             <line>
-              <![CDATA[Before Method]]>
+              <![CDATA[I am in After Method]]>
             </line>
           </reporter-output>
-        </test-method> <!-- getBeforeMethod -->
-        <test-method status="PASS" signature="getTestMethodFour()[pri:4, instance:org.one.MyTestNG@610694f1]" name="getTestMethodFour" duration-ms="4" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testng.T2@1efed156]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-08-11T16:52:40 IST" finished-at="2020-08-11T16:52:40 IST">
           <reporter-output>
             <line>
-              <![CDATA[Test Method Four]]>
+              <![CDATA[I am in After Class]]>
             </line>
           </reporter-output>
-        </test-method> <!-- getTestMethodFour -->
-        <test-method status="PASS" signature="getAfterMethod()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getAfterMethod" is-config="true" duration-ms="0" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testng.T2@1efed156]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-08-11T16:52:40 IST" finished-at="2020-08-11T16:52:40 IST">
           <reporter-output>
             <line>
-              <![CDATA[After Method]]>
+              <![CDATA[I am in After Test]]>
             </line>
           </reporter-output>
-        </test-method> <!-- getAfterMethod -->
-        <test-method status="PASS" signature="getAfterClass()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getAfterClass" is-config="true" duration-ms="1" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.testng.T2@1efed156]" name="afterSuite" is-config="true" duration-ms="1" started-at="2020-08-11T16:52:40 IST" finished-at="2020-08-11T16:52:40 IST">
           <reporter-output>
             <line>
-              <![CDATA[After Class]]>
+              <![CDATA[I am in After Suite]]>
             </line>
           </reporter-output>
-        </test-method> <!-- getAfterClass -->
-        <test-method status="PASS" signature="geAfterTest()[pri:0, instance:org.one.MyTestNG@610694f1]" name="geAfterTest" is-config="true" duration-ms="0" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
-          <reporter-output>
-            <line>
-              <![CDATA[After Test]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- geAfterTest -->
-        <test-method status="PASS" signature="getAfterSuite()[pri:0, instance:org.one.MyTestNG@610694f1]" name="getAfterSuite" is-config="true" duration-ms="2" started-at="2020-05-09T13:41:33 IST" finished-at="2020-05-09T13:41:33 IST">
-          <reporter-output>
-            <line>
-              <![CDATA[After Suite]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- getAfterSuite -->
-      </class> <!-- org.one.MyTestNG -->
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.testng.T2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

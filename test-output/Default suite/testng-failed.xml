@@ -3,17 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.one.Practise">
+      <class name="com.testng.T11">
         <methods>
-          <include name="test1"/>
-          <include name="initFramework"/>
-          <include name="getClose"/>
-          <include name="test"/>
-          <include name="test6"/>
-          <include name="test10"/>
-          <include name="test5"/>
+          <include name="getFails"/>
         </methods>
-      </class> <!-- org.one.Practise -->
+      </class> <!-- com.testng.T11 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

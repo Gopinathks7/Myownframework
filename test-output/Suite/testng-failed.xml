@@ -2,15 +2,15 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
-    <listener class-name="org.today.MyAnnotationTransformenr"/>
+    <listener class-name="com.testng.AnnotationTrans"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="org.today.PRG3">
+      <class name="com.testng.T11">
         <methods>
-          <include name="one"/>
+          <include name="getFails"/>
         </methods>
-      </class> <!-- org.today.PRG3 -->
+      </class> <!-- com.testng.T11 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
